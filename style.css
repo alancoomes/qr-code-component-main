@@ -6,7 +6,7 @@ html {
   --color-white: hsl(0, 0%, 100%);
   --color-light-gray: hsl(212, 45%, 89%);
   --color-gray-blue: hsl(220, 15%, 55%);
-  --dark-blue: hsl(218, 44%, 22%);
+  --color-dark-blue: hsl(218, 44%, 22%);
   font-family: 'Outfit', sans-serif;
   height: 100%;
 }
@@ -35,16 +35,18 @@ body {
 .container h2 {
     width: 275px;
     font-weight: 700;
+    color: var(--color-dark-blue);
 }
 
 .container p {
+    margin-top: -10px;
     width: 275px;
     font-weight: 400;
     color: var(--color-gray-blue)
 }
 
 img {
-    width: 300px;
+    width: 280px;
     border-radius: 8px;
 }
 
