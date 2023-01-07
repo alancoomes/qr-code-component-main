@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    margin: 0;
     background-color: var(--color-light-gray);
     display: flex;
     justify-content: center;
@@ -45,4 +46,10 @@ body {
 img {
     width: 300px;
     border-radius: 8px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
 }
